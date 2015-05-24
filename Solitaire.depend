@@ -18,23 +18,24 @@
 	<stack>
 	<vector>
 
-1432476983 source:c:\users\giliwawaa\documents\hsan\solitairespider\main.cpp
+1432484822 source:c:\users\giliwawaa\documents\hsan\solitairespider\main.cpp
 	<iostream>
 	<stdlib.h>
 	<stdio.h>
 	"Solitaire.h"
 
-1432477005 c:\users\giliwawaa\documents\hsan\solitairespider\solitaire.h
+1432484822 c:\users\giliwawaa\documents\hsan\solitairespider\solitaire.h
 	<stack>
 	<vector>
 
-1432479022 source:c:\users\giliwawaa\documents\hsan\solitairespider\solitaire.cpp
+1432484822 source:c:\users\giliwawaa\documents\hsan\solitairespider\solitaire.cpp
 	<stdlib.h>
 	<stdio.h>
 	<iostream>
 	<stack>
 	<vector>
 	<ctime>
+	<typeinfo>
 	"Solitaire.h"
 
 1432487420 source:c:\users\hassan\desktop\solitaire\solitairespider\main.cpp
