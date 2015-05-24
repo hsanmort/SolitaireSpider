@@ -1,7 +1,8 @@
-#include <iostream>
 #include<stdlib.h>
 #include<stdio.h>
+#include <iostream>
 #include "Solitaire.h"
+
 
 using namespace std;
 
@@ -23,5 +24,6 @@ int main()
     p= ChangementDetat( p);
 
     Afficher( p);
+
 
 }

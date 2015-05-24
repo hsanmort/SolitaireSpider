@@ -132,25 +132,17 @@ Pioche ChangementDetat(Pioche p)
 Tpioche DistributionStandard(Pioche *p, Tpioche t)
 {
 
-    Pioche x;
 
-    int j=0;
-    for(int k=0; k<10; k++)
-    {
-        t.push_back(x);
-    }
-    while(j<54)
+
+
+    for(int z=0;z<10;z++)
     {
         Carte x;
         x = p->top();
-        if(j>43)
-        {
-            x.vis='v';
-        }
-        t[j%10].push(x);
+        t[z].push(x);
         p->pop();
 
-        j++;
+
     }
 
     return t;
