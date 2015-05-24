@@ -8,9 +8,7 @@
 #include "SDL/SDL.h"
 #include "SDL/SDL_image.h"
 #undef main
-#include <iostream>
 
-using namespace std;
 
 typedef struct Input
 {

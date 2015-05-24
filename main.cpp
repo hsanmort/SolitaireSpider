@@ -1,14 +1,15 @@
-#include <iostream>
 #include<stdlib.h>
 #include<stdio.h>
-#include "main.h"
+#include <iostream>
 #include "Solitaire.h"
-
+#include "main.h"
+#include "input.c"
 using namespace std;
 
 int main( int argc, char *argv[])
 {
-
+    unsigned int frameLimit = SDL_GetTicks() + 16;
+    int go=1;
     Pioche p;
     Tpioche t;
     int    n=4;
@@ -25,12 +26,12 @@ int main( int argc, char *argv[])
 
     Afficher( p);
     atexit(cleanup);
-    while (1)
+    while (go==1)
     {
-        /*getInput();
+        getInput();
         draw();
         delay(frameLimit);
-        frameLimit = SDL_GetTicks() + 16;*/
+        frameLimit = SDL_GetTicks() + 16;
     }
     exit(0);
 }

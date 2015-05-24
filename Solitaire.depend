@@ -18,17 +18,19 @@
 	<stack>
 	<vector>
 
-1432484822 source:c:\users\giliwawaa\documents\hsan\solitairespider\main.cpp
-	<iostream>
+1432497433 source:c:\users\giliwawaa\documents\hsan\solitairespider\main.cpp
 	<stdlib.h>
 	<stdio.h>
+	<iostream>
 	"Solitaire.h"
+	"main.h"
+	"input.c"
 
-1432484822 c:\users\giliwawaa\documents\hsan\solitairespider\solitaire.h
+1432495379 c:\users\giliwawaa\documents\hsan\solitairespider\solitaire.h
 	<stack>
 	<vector>
 
-1432484822 source:c:\users\giliwawaa\documents\hsan\solitairespider\solitaire.cpp
+1432494994 source:c:\users\giliwawaa\documents\hsan\solitairespider\solitaire.cpp
 	<stdlib.h>
 	<stdio.h>
 	<iostream>
@@ -57,4 +59,33 @@
 	<ctime>
 	<typeinfo>
 	"Solitaire.h"
+
+1432490626 source:c:\users\giliwawaa\documents\hsan\solitairespider\gameinit.cpp
+	"gameInit.h"
+	"gameInit.h"
+
+1432490088 c:\users\giliwawaa\documents\hsan\solitairespider\gameinit.h
+	"defs.h"
+
+1432495931 c:\users\giliwawaa\documents\hsan\solitairespider\defs.h
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+
+1432497406 c:\users\giliwawaa\documents\hsan\solitairespider\main.h
+	"defs.h"
+
+1432497286 source:c:\users\giliwawaa\documents\hsan\solitairespider\input.c
+	"input.h"
+
+1432497406 c:\users\giliwawaa\documents\hsan\solitairespider\input.h
+	"defs.h"
+
+1432496063 source:c:\users\giliwawaa\documents\hsan\solitairespider\draw.cpp
+	"draw.h"
+
+1432496086 c:\users\giliwawaa\documents\hsan\solitairespider\draw.h
+	"defs.h"
+
+1432497286 c:\users\giliwawaa\documents\hsan\solitairespider\input.c
+	"input.h"
 

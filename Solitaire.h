@@ -24,6 +24,8 @@ Tpioche FirstDist(Pioche *p, Tpioche t);
 void Afficher(Pioche p);
 void AfficherTableau(Tpioche t);
 Pioche ChangementDetat(Pioche p);
+Tpioche DistributionStandard(Pioche *p, Tpioche t);
+
 
 
 #endif // SOLITAIRE_H_INCLUDED

@@ -38,8 +38,14 @@
 		<Unit filename="Solitaire.cpp" />
 		<Unit filename="Solitaire.h" />
 		<Unit filename="defs.h" />
+		<Unit filename="draw.cpp" />
+		<Unit filename="draw.h" />
 		<Unit filename="gameInit.cpp" />
 		<Unit filename="gameInit.h" />
+		<Unit filename="input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="input.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main.h" />
 		<Extensions>
