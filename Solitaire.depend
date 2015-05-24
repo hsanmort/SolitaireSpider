@@ -47,3 +47,12 @@
 	<stack>
 	<vector>
 
+1432478733 source:c:\users\hassan\desktop\solitaire\solitairespider\solitaire.cpp
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<stack>
+	<vector>
+	<ctime>
+	"Solitaire.h"
+
