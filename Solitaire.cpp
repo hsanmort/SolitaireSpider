@@ -4,6 +4,7 @@
 #include <stack>
 #include<vector>
 #include <ctime>
+#include <typeinfo>
 #include "Solitaire.h"
 using namespace std;
 void afficher(Carte c)
@@ -70,7 +71,46 @@ Pioche Creation_pioche(Pioche p)
         N--;
 
     }
-    // table.push_back(p);
+
 
     return p;
 }
+Tpioche FirstDist(Pioche p, Tpioche t)
+{
+
+    Pioche x;
+
+    int j=0;
+    for(int k=0; k<10; k++)
+    {
+        t.push_back(x);
+    }
+    while(j<54)
+    {
+        Carte x;
+        x = p.top();
+        if(j>43)
+        {
+            x.vis='v';
+        }
+        t[j%10].push(x);
+        p.pop();
+
+        j++;
+    }
+
+    return t;
+}
+void AfficherTableau(Tpioche p)
+{
+    Tpioche t = p;
+    int i=0;
+    for(int j=0; j<10; j++)
+    {
+
+
+        Afficher(t[j]);
+
+    }
+}
+
