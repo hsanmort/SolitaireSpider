@@ -24,22 +24,22 @@ void afficher(Carte c)
 }
 void Afficher(Pioche& p)
 {
-Pioche t = p;
-while(!t.empty())
-{
-    cout << " -> ";
+    Pioche t = p;
+    while(!t.empty())
+    {
+        cout << " -> ";
 
-afficher(t.top());
-t.pop();
-}
+        afficher(t.top());
+        t.pop();
+    }
 }
 Pioche Creation_pioche(Pioche p)
 {
-Tpioche table;
-  vector<Carte> total;
+    Tpioche table;
+    vector<Carte> total;
     Carte C;
     int X=0;
-    int N = 26;
+    int N = 104;
 
     for(int i=0; i<2 ; i++)
     {
@@ -70,5 +70,5 @@ Tpioche table;
     }
     // table.push_back(p);
 
-return p;
+    return p;
 }

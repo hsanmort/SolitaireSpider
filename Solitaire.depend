@@ -18,3 +18,22 @@
 	<stack>
 	<vector>
 
+1432476983 source:c:\users\giliwawaa\documents\hsan\solitairespider\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"Solitaire.h"
+
+1432477005 c:\users\giliwawaa\documents\hsan\solitairespider\solitaire.h
+	<stack>
+	<vector>
+
+1432477739 source:c:\users\giliwawaa\documents\hsan\solitairespider\solitaire.cpp
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<stack>
+	<vector>
+	<ctime>
+	"Solitaire.h"
+

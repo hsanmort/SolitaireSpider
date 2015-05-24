@@ -7,8 +7,8 @@ using namespace std;
 
 int main()
 {
-   Pioche p;
-   p= Creation_pioche(p);
+    Pioche p;
+    p= Creation_pioche(p);
     Afficher( p);
 
 }
