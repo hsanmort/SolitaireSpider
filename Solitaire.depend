@@ -37,23 +37,22 @@
 	<ctime>
 	"Solitaire.h"
 
-1432483220 source:c:\users\hassan\desktop\solitaire\solitairespider\main.cpp
+1432478720 source:c:\users\hassan\desktop\solitaire\solitairespider\main.cpp
 	<iostream>
 	<stdlib.h>
 	<stdio.h>
 	"Solitaire.h"
 
-1432483236 c:\users\hassan\desktop\solitaire\solitairespider\solitaire.h
+1432478573 c:\users\hassan\desktop\solitaire\solitairespider\solitaire.h
 	<stack>
 	<vector>
 
-1432483395 source:c:\users\hassan\desktop\solitaire\solitairespider\solitaire.cpp
+1432478733 source:c:\users\hassan\desktop\solitaire\solitairespider\solitaire.cpp
 	<stdlib.h>
 	<stdio.h>
 	<iostream>
 	<stack>
 	<vector>
 	<ctime>
-	<typeinfo>
 	"Solitaire.h"
 

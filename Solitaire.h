@@ -17,11 +17,10 @@ typedef struct carte
 Carte;
 typedef stack<Carte> Pioche;
 
-typedef vector<Pioche> Tpioche ;
+typedef vector<Pioche> Tpioche;
 void afficher(Carte c);
 Pioche Creation_pioche(Pioche p );
-Tpioche FirstDist(Pioche p, Tpioche t);
 void Afficher(Pioche& p);
-void AfficherTableau(Tpioche t);
+void AfficheTab(Tpioche t);
 
 #endif // SOLITAIRE_H_INCLUDED
