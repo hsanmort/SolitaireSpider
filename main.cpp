@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+    //intialization Du jeux
     Pioche p;
 int    n=4;
     while(n>0)
