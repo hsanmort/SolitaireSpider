@@ -2,11 +2,12 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include "Solitaire.h"
-
+#include "main.h"
 using namespace std;
 
-int main()
+int main( int argc, char *argv[] )
 {
+    init("Hsan");
     //intialization Du jeux
     Pioche p;
     Tpioche t;
