@@ -19,6 +19,7 @@ int main( int argc, char *argv[])
         n--;
     }
     init("Hsan");
+    loadGame();
     t=FirstDist( &p,  t);
     AfficherTableau(t);
     cout<<"changement de la pile le reste"<<endl;

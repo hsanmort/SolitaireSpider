@@ -4,5 +4,6 @@
 #include "defs.h"
 
 extern Gestion jeu;
+extern Map mapp;
 
 #endif // DRAW_H_INCLUDED

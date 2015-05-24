@@ -23,10 +23,20 @@ void init(char *title)
     SDL_WM_SetCaption(title, NULL);
 
 }
+void loadGame(void)
+{
+
+    /* Charge l'image du fond */
+    mapp.background = loadImage("images/background.png");
+
+}
 
 void cleanup()
 {
-
+    if (mapp.background != NULL)
+    {
+        SDL_FreeSurface(mapp.background);
+    }
     /* Quitte la SDL */
     SDL_Quit();
 
