@@ -8,7 +8,12 @@ using namespace std;
 int main()
 {
     Pioche p;
-    p= Creation_pioche(p);
+int    n=4;
+    while(n>0)
+    {
+           p= Creation_pioche(p);
+n--;
+    }
     Afficher( p);
 
 }

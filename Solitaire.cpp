@@ -25,11 +25,13 @@ void afficher(Carte c)
 void Afficher(Pioche& p)
 {
     Pioche t = p;
+    int i=0;
     while(!t.empty())
     {
-        cout << " -> ";
+        cout << i <<" -> ";
 
         afficher(t.top());
+        i++;
         t.pop();
     }
 }
@@ -39,7 +41,7 @@ Pioche Creation_pioche(Pioche p)
     vector<Carte> total;
     Carte C;
     int X=0;
-    int N = 104;
+    int N = 26;
 
     for(int i=0; i<2 ; i++)
     {
