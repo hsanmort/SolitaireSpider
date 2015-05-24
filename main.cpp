@@ -13,12 +13,15 @@ int main()
     int    n=4;
     while(n>0)
     {
-        p= Creation_pioche(p);
+       Creation_pioche(&p);
         n--;
     }
-     t=FirstDist( p,  t);
-     AfficherTableau(t);
+    t=FirstDist( &p,  t);
+    AfficherTableau(t);
+    //change
+    cout<<"changement de la pile le reste"<<endl;
+    p= ChangementDetat( p);
 
-   // Afficher( p);
+    Afficher( p);
 
 }

@@ -19,9 +19,11 @@ typedef stack<Carte> Pioche;
 
 typedef vector<Pioche> Tpioche ;
 void afficher(Carte c);
-Pioche Creation_pioche(Pioche p );
-Tpioche FirstDist(Pioche p, Tpioche t);
-void Afficher(Pioche& p);
+void Creation_pioche(Pioche *p );
+Tpioche FirstDist(Pioche *p, Tpioche t);
+void Afficher(Pioche p);
 void AfficherTableau(Tpioche t);
+Pioche ChangementDetat(Pioche p);
+
 
 #endif // SOLITAIRE_H_INCLUDED

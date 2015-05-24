@@ -5,6 +5,7 @@
 #include<vector>
 #include <ctime>
 #include <typeinfo>
+
 #include "Solitaire.h"
 using namespace std;
 void afficher(Carte c)
@@ -23,7 +24,7 @@ void afficher(Carte c)
     else if(c.vis == 'v')
         cout <<"valeur est "<<val1<<" \tcouleur est "<<c1<< " face visible"<<endl;
 }
-void Afficher(Pioche& p)
+void Afficher(Pioche p)
 {
     Pioche t = p;
     int i=0;
@@ -36,7 +37,7 @@ void Afficher(Pioche& p)
         t.pop();
     }
 }
-Pioche Creation_pioche(Pioche p)
+void Creation_pioche(Pioche *p)
 {
     Tpioche table;
     vector<Carte> total;
@@ -65,7 +66,7 @@ Pioche Creation_pioche(Pioche p)
     {
         X=rand()% N;
 
-        p.push(total[X]);
+        p->push(total[X]);
 
         total.erase(total.begin()+X);
         N--;
@@ -73,9 +74,9 @@ Pioche Creation_pioche(Pioche p)
     }
 
 
-    return p;
+
 }
-Tpioche FirstDist(Pioche p, Tpioche t)
+Tpioche FirstDist(Pioche *p, Tpioche t)
 {
 
     Pioche x;
@@ -88,13 +89,13 @@ Tpioche FirstDist(Pioche p, Tpioche t)
     while(j<54)
     {
         Carte x;
-        x = p.top();
+        x = p->top();
         if(j>43)
         {
             x.vis='v';
         }
         t[j%10].push(x);
-        p.pop();
+        p->pop();
 
         j++;
     }
@@ -113,4 +114,44 @@ void AfficherTableau(Tpioche p)
 
     }
 }
+Pioche ChangementDetat(Pioche p)
+{
+    Pioche t ;
 
+    while(!p.empty())
+    {
+    Carte c;
+    c=p.top();
+    c.vis='v';
+    t.push(c);
+    p.pop();
+    }
+    p=t;
+    return p;
+}
+Tpioche DistributionStandard(Pioche *p, Tpioche t)
+{
+
+    Pioche x;
+
+    int j=0;
+    for(int k=0; k<10; k++)
+    {
+        t.push_back(x);
+    }
+    while(j<54)
+    {
+        Carte x;
+        x = p->top();
+        if(j>43)
+        {
+            x.vis='v';
+        }
+        t[j%10].push(x);
+        p->pop();
+
+        j++;
+    }
+
+    return t;
+}
