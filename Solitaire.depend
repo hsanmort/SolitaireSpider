@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1432333812 source:c:\users\hassan\desktop\solitaire\solitaire\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"Solitaire.h"
+
+1432334285 source:c:\users\hassan\desktop\solitaire\solitaire\solitaire.cpp
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	<stack>
+	<vector>
+	<ctime>
+	"Solitaire.h"
+
+1432334285 c:\users\hassan\desktop\solitaire\solitaire\solitaire.h
+	<stack>
+	<vector>
+
